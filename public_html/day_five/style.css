@@ -1,0 +1,90 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Feb 15, 2016, 2:16:19 PM
+    Author     : Web App Develop PHP
+*/
+*{
+    margin: 0px;
+    padding: 0px;
+    
+}
+
+ #demo{
+     font-size: 50px;
+     color: blueviolet;
+ }
+ .main{
+     width: 900px;
+     margin: 0 auto;
+ }
+ .box_one{
+     height: 200px;
+     width: 300px;
+     background-color: #0000ff;
+         float: left;
+ }
+ .box_two{
+     height: 200px;
+     width: 600px;
+     background-color: #009999;
+       float: left;
+ }
+ .nav{
+      height: 50px;
+     width: 900px;
+     background-color: #660066;
+       float: left;
+ }
+  .left{
+      float: left;
+      height: 600px;
+     width: 100px;
+     background-color: #ff0066;
+    
+ }
+  .content{
+      float: left;
+      height: 600px;
+     width: 700px;
+     background-color: #666666;
+       
+ }
+  .right{
+      float: left;
+      height: 600px;
+     width: 100px;
+     background-color: #ff0066;
+       
+ }
+ .one{
+      float: left;
+      height: 600px;
+     width: 100px;
+     background-color: #ff0066;
+    
+ }
+  .two{
+      float: left;
+      height: 600px;
+     width: 700px;
+     background-color: #666666;
+       
+ }
+  .three{
+      float: left;
+      height: 600px;
+     width: 100px;
+     background-color: #ff0066;
+       
+ }
+   .four{
+      float: left;
+      height: 600px;
+     width: 100px;
+     background-color: #ff0066;
+       
+ }

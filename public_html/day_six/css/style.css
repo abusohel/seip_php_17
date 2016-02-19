@@ -1,0 +1,268 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Feb 17, 2016, 1:53:49 PM
+    Author     : Web App Develop PHP
+*/
+
+body{
+    background-color: black;
+}
+#wrapper{
+    width: 90%;
+    height: 1200px;
+    margin: 0 auto;
+    background-color: #ffffff;
+
+}
+#wrapper #menu{
+    float: left;
+    width: 100%;
+    height: 50px;
+    background-color: activeborder;
+
+}
+#menu ul{
+    margin: 0px;
+    padding: 0px;
+    list-style-type: none;
+}
+#menu ul li{
+    float: left;
+    width: 120px;
+    //border: 1px solid;
+    margin-right: 3px;
+    padding: 16px 5px;
+    text-align: center;
+    background-color: #66ff66;
+    color: #3399ff;
+    cursor: pointer;
+    font-weight: bold;
+    text-transform: uppercase;
+    border-radius: 10px;
+   // transition: background-color 2s;
+  
+    //transition: border-radius 3s;
+      transition: all 3s;
+    
+}
+#menu ul li:hover{
+    background-color: #006600;
+    color: #ffffff;
+    border-radius: 50%;
+}
+
+#wrapper #header{
+     float: left;
+    width: 100%;
+    height: 250px;
+    margin-top: 4px;
+    background-color: #ffffff;
+}
+#header #logo{
+    float: left;
+    width: 29.4%;
+    height: 250px;
+    background-color: #3399ff;
+   
+}
+#header #slider{
+    float: left;
+    width: 40%;
+    height: 250px;
+    background-color: #3399ff;
+    margin-left: .3%;
+}
+#header #add{
+    float: left;
+    width: 30%;
+    height: 250px;
+    background-color: #3399ff;
+    margin-left: .3%;
+}
+#content{
+    float: left;
+    width: 100%;
+    height: 550px;
+    margin-top: 4px;
+    background-color: #ffffff;
+}
+  #content #left_content{
+    float: left;
+    width: 79.7%;
+    height: 550px;
+    background-color: #0000ff;
+}
+.square{
+     height: 300px;
+    width: 450px;
+    background-color: #006600;
+    margin: 50px;
+    
+    
+}
+.circle{
+    float: left;
+    height: 200px;
+    width: 200px;
+    //border-radius: 50%;
+    background-color: #ff3333;
+    margin-top: -285px;
+    margin-left: 80px;
+    transition: all 2s;
+    background-image: url(../images/11.jpg);
+    background-repeat: no-repeat;
+    transform: skewY(45deg);
+     
+}
+.circle:hover{
+   // transform: scale(1.5);
+ // background-image: url(../images/11.jpg);
+ // transform: rotate(360deg);
+ //transform: rotateX(90deg);
+ //transform: rotate(360deg) scale(1.5);
+ //transform: skew(30deg);
+ transform: rotateY(90deg);
+}
+.circl{
+    float: left;
+    height: 200px;
+    width: 200px;
+    //border-radius: 50%;
+    background-color: #ff3333;
+    margin-top: -285px;
+    margin-left: 280px;
+    transition: all 2s;
+    background-image: url(../images/11.jpg);
+     transform: skewY(-45deg);
+}
+.circl:hover{
+   // transform: scale(1.5);
+ // background-image: url(../images/11.jpg);
+ // transform: rotate(360deg);
+ transform: rotateX(90deg);
+ //transform: rotate(360deg) scale(1.5);
+ //transform: skew(30deg);
+ //transform: rotateY(90deg);
+}
+
+ #content #main_content{
+    float: left;
+    width: 20%;
+    height: 550px;
+    background-color: #660066;
+    margin-left: .3%
+}
+
+#big_footer{
+    float: left;
+    width: 100%;
+    height: 250px;
+    background-color: #cccccc;
+    margin-top: 4px;
+}
+#big_footer #big_footer_one{
+    float: left;
+    width: 33.4%;
+    height: 250px;
+    background-color: #6666ff;
+    
+}
+.circle1{
+    float: left;
+    height: 100px;
+    width: 50px;
+    border-radius: 50px 0 0 50px;
+    background-color: #ff3333;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+.circle2{
+    float: left;
+    height: 100px;
+    width: 50px;
+    border-radius: 0 50px 50px 0;
+    background-color: #ff3333;
+    margin-left: 2px;
+    margin-top: 10px;
+}
+.circle3{
+    float: left;
+    height: 50px;
+    width: 100px;
+    border-radius: 50px 50px 0 0;
+    background-color: #ff3333;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+.circle4{
+    float: left;
+    height: 50px;
+    width: 100px;
+    border-radius: 0 0 50px 50px;
+    background-color: #ff3333;
+    margin-left: -100px;
+    margin-top: 61px;
+}
+#big_footer #big_footer_two{
+    float: left;
+    width: 33%;
+    height: 250px;
+    background-color: #6666ff;
+    margin-left: .3%;
+}
+.circle11{
+     float: left;
+    height: 50px;
+    width: 50px;
+    border-radius: 50px 0 0 0;
+    background-color: #ff3333;
+    margin-left: 20px;
+    margin-top: 20px;
+}
+.circle21{
+     float: left;
+    height: 50px;
+    width: 50px;
+    border-radius: 0 50px 0 0;
+    background-color: #ff3333;
+    margin-left: 5px;
+    margin-top: 20px;
+}
+
+.circle31{
+     float: left;
+    height: 50px;
+    width: 50px;
+    border-radius: 0 0 50px 0;
+    background-color: #ff3333;
+    margin-left: -50px;
+    margin-top: 75px;
+}
+.circle41{
+     float: left;
+    height: 50px;
+    width: 50px;
+    border-radius: 0 0 0 50px;
+    background-color: #ff3333;
+    margin-left: -105px;
+    margin-top: 75px;
+}
+#big_footer #big_footer_three{
+    float: left;
+    width: 33%;
+    height: 250px;
+    background-color: #6666ff;
+    margin-left: .3%;
+}
+
+#footer{
+    float: left;
+    width: 100%;
+    height: 100px;
+    background-color: #660066;
+    margin-top: 4px;
+}

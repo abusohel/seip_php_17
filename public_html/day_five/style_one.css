@@ -1,0 +1,115 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Feb 15, 2016, 4:17:52 PM
+    Author     : Web App Develop PHP
+*/
+body{
+    background-color: black;
+}
+#wrapper{
+    width: 90%;
+    margin: 0 auto;
+    background-color: #99ffff;
+}
+#menu{
+    float: left;
+    width: 100%;
+    height: 100px;
+    background-color: #660066;
+}
+#header{
+     float: left;
+    width: 100%;
+    height: 250px;
+    margin-top: 4px;
+    background-color: #ffffff;
+}
+#logo{
+    float: left;
+    width: 29.4%;
+    height: 250px;
+    background-color: #3399ff;
+   
+}
+#slider{
+    float: left;
+    width: 40%;
+    height: 250px;
+    background-color: #3399ff;
+    margin-left: .3%;
+}
+#add{
+    float: left;
+    width: 30%;
+    height: 250px;
+    background-color: #3399ff;
+    margin-left: .3%;
+}
+#content{
+    float: left;
+    width: 100%;
+    height: 550px;
+    margin-top: 4px;
+    background-color: #ffffff;
+}
+#left_content{
+    float: left;
+    width: 20%;
+    height: 550px;
+    background-color: #0000ff;
+}
+#main_content{
+    float: left;
+    width: 79.7%;
+    height: 550px;
+    background-color: #660066;
+    margin-left: .3%
+}
+
+#big_footer{
+    float: left;
+    width: 100%;
+    height: 250px;
+    background-color: #cccccc;
+    margin-top: 4px;
+}
+#big_footer_one{
+    float: left;
+    width: 24.1%;
+    height: 250px;
+    background-color: #6666ff;
+    
+}
+#big_footer_two{
+    float: left;
+    width: 25%;
+    height: 250px;
+    background-color: #6666ff;
+    margin-left: .3%;
+}
+#big_footer_three{
+    float: left;
+    width: 25%;
+    height: 250px;
+    background-color: #6666ff;
+    margin-left: .3%;
+}
+#big_footer_four{
+    float: left;
+    width: 25%;
+    height: 250px;
+    background-color: #6666ff;
+    margin-left: .3%;
+}
+
+#footer{
+    float: left;
+    width: 100%;
+    height: 100px;
+    background-color: #660066;
+    margin-top: 4px;
+}
